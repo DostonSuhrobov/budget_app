@@ -1,5 +1,6 @@
 import { Button, Stack } from "react-bootstrap"
 import Container from "react-bootstrap/Container";
+import  BudgetCard  from './components/BudgetCard'
 
 
 function App() {
@@ -14,7 +15,9 @@ function App() {
         gridTemplateColumns: "repeat(auto-fill, minmax(300px, 1fr))", 
         gap:"1rem", 
         alignItems: "flex-start" 
-        }}></div>
+        }}>
+          <BudgetCard></BudgetCard>
+          </div>
    </Container>
 }
 
