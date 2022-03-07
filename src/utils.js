@@ -1,5 +1,6 @@
-export const currencyFormatter = new Intl.NymberFormat(undefined, {
+export const currencyFormatter = new Intl.NumberFormat(undefined, {
     currency: "usd",
     style: "currency",
     minimumFractionDisgits: 0
 })
+
